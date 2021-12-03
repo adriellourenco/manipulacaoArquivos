@@ -13,6 +13,9 @@ public class Arquivo {
 
 	public Arquivo(String caminho) {
 		this.caminho = caminho;
+		String conteudo = "";
+		conteudo = ler();
+		this.conteudo = conteudo;
 	}
 
 	public String getConteudo() {

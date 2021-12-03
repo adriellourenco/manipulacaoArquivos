@@ -1,12 +1,16 @@
 package br.senai.sp.jandira;
 
 import br.senai.sp.jandira.model.Arquivo;
+import br.senai.sp.jandira.ui.FrameManipulacaoArquivos;
 
 public class App {
 	
 	public static void main(String[] args) {
 		
-		/*Arquivo teste = new Arquivo("C:\\Users\\21276092\\Desktop\\TesteArquivo2\\teste.txt");
+		FrameManipulacaoArquivos tela = new FrameManipulacaoArquivos();
+		tela.setVisible(true);
+		
+		/*Arquivo teste = new Arquivo("C:\\Users\\21276092\\Desktop\\TesteArquivo\\teste.txt");
 		
 		String texto1 = "Banana";
 		String texto2 = "Abacaxi";
@@ -21,8 +25,5 @@ public class App {
 		teste.escrever(texto5);
 		
 		System.out.println(teste.ler());*/
-		
-		
-		
 	}
 }
